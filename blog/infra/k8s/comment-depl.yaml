@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: comment
-          image: mayurlashkari/myrepo:comment
+          image: mayurlashkari/micro_service:comment
 ---
 
 apiVersion: v1

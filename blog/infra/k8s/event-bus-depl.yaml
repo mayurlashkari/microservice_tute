@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: mayurlashkari/myrepo:event-bus
+          image: mayurlashkari/micro_service:event-bus
 
 ---
 

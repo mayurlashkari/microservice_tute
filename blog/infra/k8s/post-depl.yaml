@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: posts
-          image: mayurlashkari/myrepo:posts
+          image: mayurlashkari/micro_service:post
 ---
 
 apiVersion: v1

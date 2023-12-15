@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: mayurlashkari/myrepo:moderation
+          image: mayurlashkari/micro_service:moderation
 ---
 
 apiVersion: v1

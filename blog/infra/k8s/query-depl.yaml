@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: query
-          image: mayurlashkari/myrepo:query
+          image: mayurlashkari/micro_service:query
 ---
 
 apiVersion: v1
