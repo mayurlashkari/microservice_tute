@@ -30,7 +30,7 @@ app.post('/events',(req, res)=>{
 });
 
 
-app.post('/posts' , (req, res)=>{
+app.post('/posts/create' , (req, res)=>{
 //const id = rendomBytes(4).toString('hex');
 crypto.randomBytes(4,  (err, buf) => {
     if (err) {

@@ -8,7 +8,7 @@ const[title,setTitle] = useState('');
 const onSubmit = (event) =>{
 event.preventDefault();
 
-  axios.post('http://localhost:4000/posts',{
+  axios.post('http://posts.com/posts/create',{
 title
 });
 

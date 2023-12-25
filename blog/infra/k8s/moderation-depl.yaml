@@ -15,6 +15,13 @@ spec:
       containers:
         - name: moderation
           image: mayurlashkari/micro_service:moderation
+          resources:
+            limits:
+              cpu : "1"
+              memory: 512Mi               
+            requests:
+              memory: 256Mi
+              cpu: "0.2"
 ---
 
 apiVersion: v1

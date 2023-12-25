@@ -8,7 +8,7 @@ const[Comments,setComments] = useState([]);
 //responce data and event modified data
 const fetchPost = async()=>{
 
-const res = await axios.get(`http://localhost:4001/posts/${PostId}/comments`)
+const res = await axios.get(`http://posts.com/posts/${PostId}/comments`)
 setComments(res.data);
 
 };
